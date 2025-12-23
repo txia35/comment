@@ -48,14 +48,13 @@ brew services start postgresql@15
 ### 3. Set Up Python Environment
 
 # Create virtual environment
-python3 -m venv venv
+python3.10 -m venv venv
 
 # Activate virtual environment
 source venv/bin/activate
 
-# Install dependencies
-pip install django djangorestframework psycopg2-binary
-```
+# Install/reinstall all dependencies
+pip install -r requirements.txt
 
 ### 4. Configure Database Connection
 
@@ -211,7 +210,7 @@ npm install
 npm start
 ```
 
-The React app will open automatically at `http://localhost:3000`
+The React app will open automatically at `http://localhost:3001`
 
 ### What You'll See
 
