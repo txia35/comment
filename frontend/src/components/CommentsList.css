@@ -1,0 +1,46 @@
+.comments-list {
+  width: 100%;
+}
+
+.comments-count {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.no-comments {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.no-comments p {
+  color: #718096;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .comments-count {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .comments-container {
+    gap: 1rem;
+  }
+}
