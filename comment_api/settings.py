@@ -80,8 +80,8 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "comments_db",
-        "USER": "pengxia",
-        "PASSWORD": "",
+        "USER": "your_username",  # Change to your PostgreSQL username
+        "PASSWORD": "",  # Add password if needed
         "HOST": "localhost",
         "PORT": "5432",
     }
